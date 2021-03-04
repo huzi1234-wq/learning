@@ -31,5 +31,5 @@ jobs:
       - name: install surge
         run: npm install --global surge
       - name: Run Surge
-        run: surge ./ innocentselfmade.surge.sh --token ${{ secrets.SURGE_TOCKEN }}
+        run: surge ./ easypondi.surge.sh --token ${{ secrets.SURGE_TOCKEN }}
         
